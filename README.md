@@ -7,7 +7,9 @@ It is mainly use to secure our api, no one can use data without permission.
 
 - [Server is on Laravel](https://github.com/Test-The-Thunder/laravel-jwt)
 
-## Screenshot
- - 1 <img src="/images/1.jpeg" height="400em" />
+# Screenshot
+## login
+<img src="/images/1.jpeg" height="400em" />
 
- - 2 <img src="/images/2.jpeg" height="400em" />
+## Home
+<img src="/images/2.jpeg" height="400em" />
