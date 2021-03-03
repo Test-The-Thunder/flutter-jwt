@@ -23,7 +23,7 @@ class _LoginPageState extends State<LoginPage> {
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-              colors: [Colors.blue, Colors.teal],
+              colors: [Colors.blue[200], Colors.blue],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter),
         ),
@@ -84,7 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                 signIn(emailController.text, passwordController.text);
               },
         elevation: 0.0,
-        color: Colors.purple,
+        color: Colors.blue,
         child: Text("Sign In", style: TextStyle(color: Colors.white70)),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
       ),
